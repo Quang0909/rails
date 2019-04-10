@@ -32,3 +32,6 @@
 /config/database.yml
 .idea
 test/
+
+# Ignore Spring files.
+/spring/*.pid

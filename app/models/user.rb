@@ -9,4 +9,6 @@ class User < ApplicationRecord
   has_secure_password
 
   def downcase_email
+    self.email.downcase!
+  end
 end

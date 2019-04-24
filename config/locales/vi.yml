@@ -1,0 +1,59 @@
+vi:
+  header:
+    title: "Ứng Dụng"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+  footer:
+    content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+                           by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+    about: "Về chúng tôi"
+    contact: "Liên hệ"
+    new: "Tin tức"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      content_html: '</p>Đây là trang chủ của
+        <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
+        </p>'
+      pages1: "Chào mừng bạn đến với Sample App"
+    help:
+      title: "Trợ giúp"
+      content_html: '</p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+        <a href="https://www.railstutorial.org/help">trang trợ giúp Hướng dẫn Rails</a>.
+        Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+        <a href="https://www.railstutorial.org/book"><em>sách Hướng dẫn về Ruby on Rails</em>
+        book</a>.</p>'
+    about:
+      title: "Về chúng tôi"
+      content_html: '<p>
+        <a href="https://www.railstutorial.org/">
+        <em>Hướng dẫn về Ruby on Rails</em></a> là một
+        <a href="https://www.railstutorial.org/book">bộ sách</a> và
+        <a href="http://screencasts.railstutorial.org/">loạt screencast</a>
+        để dạy phát triển web với
+        <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+        Đây là ứng dụng mẫu cho hướng dẫn.
+      </p>'
+    contact:
+      title: "Liên hệ"
+      content_html: '<p>
+          Liên hệ tại <a href="https://www.railstutorial.org/contact">Địa chỉ liên hệ</a>.
+          </p>'
+  layouts:
+    application:
+      page_title: " Sản phẩm mẫu của Ruby on Rails"
+  users:
+    new:
+      title: "Đăng kí"
+      content_html: '<p>Đây sẽ là một trang đăng ký cho người dùng mới.</p>'
+      creat: "Tạo tài khoản"
+      name: "Tên"
+      email: "E-mail"
+      pass: "Mật Khẩu"
+      passcf: "Xác Nhận"
+  users_controller:
+    content: "Chào mừng bạn đến với Ứng Dụng!"
+  views:
+    shared:
+content: "Biểu mẫu có chứa"
